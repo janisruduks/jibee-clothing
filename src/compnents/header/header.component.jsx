@@ -5,11 +5,12 @@ import './header.styles.scss';
 import { auth } from '../../firebase/firebase.utils';
 
 import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Jibee } from '../../assets/jibee.svg';
 
 const Header = ({ currentUser }) => (
     <div className="header">
         <Link className="logo-container" to="/">
-            <Logo className='logo' />
+            <Jibee className='logo' />
         </Link>
         <div className="options">
             <Link className="option" to='/shop'>
