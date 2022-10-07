@@ -4,7 +4,6 @@ import './header.styles.scss';
 
 import { auth } from '../../firebase/firebase.utils';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { ReactComponent as Jibee } from '../../assets/jibee.svg';
 
 const Header = ({ currentUser }) => (
